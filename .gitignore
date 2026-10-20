@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.venv*/
+.runtime/
+__pycache__/
+*.py[cod]
+
+# Local data and generated results
+data/
+tmp/
+results/**/*.json
+
+# CPLEX files, installation/runtime artifacts, and PowerShell launchers
+*[Cc][Pp][Ll][Ee][Xx]*
+*.ps1
+*.dll
+*.exe
+*.msi
+*.whl
+
+# Local design documents (at any directory depth)
+project_design.md
+schedule_enumeration_design.md
