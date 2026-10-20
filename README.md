@@ -1,0 +1,2 @@
+# BranchPriceCut-UPMSP-Repre
+由于原paper描述的BPC求解框架是通过C#语言完成。本项目通过python语言进行重写并将框架中各个模块拆分成不同的脚本，以便于更好地学习论文。
